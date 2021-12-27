@@ -57,6 +57,11 @@ export const Image = styled.div`
     height: 80vh;
     object-fit: cover;
   }
+
+ @media only screen and (max-width: 768px) {
+   padding-top: 5rem;
+  }
+
 `;
 
 export const Hide = styled.div`
